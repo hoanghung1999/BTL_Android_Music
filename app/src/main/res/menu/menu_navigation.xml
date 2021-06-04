@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/canhanNAV"
+        android:icon="@drawable/music"
+        android:title="Cá nhân" />
+    <item
+        android:id="@+id/khamphaNAV"
+        android:icon="@drawable/khampha"
+        android:title="Khám phá" />
+    <item
+        android:id="@+id/zingchartNAV"
+        android:icon="@drawable/zingchart"
+        android:title="Zingchart" />
+
+    <item
+        android:id="@+id/userNAV"
+        android:icon="@drawable/user_icon"
+        android:title="User" />
+</menu>

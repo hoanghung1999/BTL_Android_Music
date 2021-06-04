@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_marginTop="15dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+
+        android:id="@+id/imageSongTop"
+        android:layout_marginLeft="50dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/background"
+        android:scaleType="fitXY"
+        />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/songNameTop"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Tên Bài hát"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            />
+        <TextView
+            android:id="@+id/singerSongTop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Ca Sĩ"
+            android:textSize="13dp"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+
+</LinearLayout>
